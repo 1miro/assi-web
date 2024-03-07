@@ -98,11 +98,6 @@
       }
     }
   
-    /* 
-    Note about creating new slider:
-    First parameter is the id of the HTML slider-container element of each slider.
-    Second parameter is an array of the media queries (breaking points) where the number of slides increases.
-    */
   
     // Create a new slider and run it
     new Slider('new-products', [576, 992]).run();
